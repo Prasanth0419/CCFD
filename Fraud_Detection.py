@@ -31,10 +31,10 @@ y_pred_if = [1 if x == -1 else 0 for x in y_pred_if]
 print("Isolation Forest Performance:\n", classification_report(y_test, y_pred_if))
 
 # Twilio Credentials (Replace with your values)
-ACCOUNT_SID = "AC71aa4fa21887ae57b5667231c030623b"
-AUTH_TOKEN = "6cb1e2051bccd0516f1f264d3789b371"
-TWILIO_PHONE_NUMBER = "+18454151910"
-RECIPIENT_PHONE_NUMBER = "+917530056060"
+ACCOUNT_SID = "Account_SID_From_Twilio"
+AUTH_TOKEN = "Authentication_Number_From_Twilio "
+TWILIO_PHONE_NUMBER = "+1xxxxxxxxxx"
+RECIPIENT_PHONE_NUMBER = "+91xxxxxxxxxx"
 
 
 def send_fraud_alert(transaction_id, amount):
